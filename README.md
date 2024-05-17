@@ -127,7 +127,7 @@ docker login
 
 Вводим логин и пароль от УЗ <https://hub.docker.com/> . 
 
-После успешной авторизации можно пушить образ. Выполняем следующикоманды по инструкции:
+После успешной авторизации можно пушить образ. Выполняем следующие команды по инструкции:
 
 ```
 docker tag nginx-alpine-my:latest constantanf/nginxcustom:nginx-alpine-custom
@@ -137,6 +137,8 @@ docker tag nginx-alpine-my:latest constantanf/nginxcustom:nginx-alpine-custom
 
 ```
 docker image ls
+```
+
 ```
 REPOSITORY                TAG                   IMAGE ID       CREATED        SIZE
 constantanf/nginxcustom   nginx-alpine-custom   1f958f8bf340   4 hours ago    48.3MB
