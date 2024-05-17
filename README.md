@@ -18,8 +18,9 @@
 
 ### Выполнение ###
 
-С помощью Vagrant разворачиваю Ubuntu Focal64 v20240513.0.0 . Устанавливаю Docker по инструкции <https://docs.docker.com/engine/install/ubuntu/> . Также устанавливаю Docker Compose в виде плагина <https://docs.docker.com/compose/install/linux/>
-Для создания кастомного образа Nginx на базе Alpine сначала нужен оригинальный образ. Для этого ищем его в официальном репозитории на docker hub <https://hub.docker.com/_/nginx> . Крайняя версия <https://github.com/nginxinc/docker-nginx/blob/9abe4ae472b3332665fad9b12ee146dc242e775c/stable/alpine/Dockerfile>
+С помощью Vagrant разворачиваю Ubuntu Focal64 v20240513.0.0 . Устанавливаю Docker по инструкции <https://docs.docker.com/engine/install/ubuntu/> . Также устанавливаю Docker Compose в виде плагина <https://docs.docker.com/compose/install/linux/> .
+Для создания кастомного образа Nginx на базе Alpine сначала нужен оригинальный образ. Для этого ищем его в официальном репозитории на docker hub <https://hub.docker.com/_/nginx> . Крайняя версия <https://github.com/nginxinc/docker-nginx/blob/9abe4ae472b3332665fad9b12ee146dc242e775c/stable/alpine/Dockerfile> .
+
 Клонируем этот репозиторий в заранее подготовленный каталог на хост машине:
 
 ```
