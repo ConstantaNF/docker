@@ -109,6 +109,7 @@ docker ps -a
 CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS          PORTS                                     NAMES
 fca53016138f   nginx-alpine-my   "/docker-entrypoint.…"   59 seconds ago   Up 58 seconds   0.0.0.0:32776->80/tcp, :::32776->80/tcp   wonderful_goldberg
 ```
+
 Через браузер с другого ПК в сети постучимся на ip хостовой машины:
 
 
