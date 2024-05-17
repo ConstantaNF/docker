@@ -222,8 +222,8 @@ CONTAINER ID   IMAGE                                         COMMAND            
 
 В Docker-контейнере можно собрать ядро с произвольными патчами, флагами конфигурации и тегом. 
 Пример на Docker Hub для сборки ядра Debian по ссылкам:
-<hub https://hub.docker.com/r/tomzo/buildkernel>
-<git https://github.com/tomzo/docker-kernel-ide>
+<https://hub.docker.com/r/tomzo/buildkernel>
+<https://github.com/tomzo/docker-kernel-ide>
 
 
 
